@@ -1,0 +1,667 @@
+
+// general code
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+    body{
+        font-family: "helvetica neue", sans-serif;
+    }
+
+    //  <!--Cabeçalho menu-->
+    nav{
+        //border-bottom: 1px solid #ffffff56;
+        //position: fixed !important;
+        width: 100%;
+        background-color: #0000004b;
+        text-align: right;
+        height: 70px;
+        line-height: 70px;
+        
+    }
+        .menu{
+            text-align: center;
+            
+            :hover{
+                color: #246dcc;
+                font-size: 20px;
+                
+                
+            }
+
+            a{  text-transform: uppercase;
+                clear: right;
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 18px;
+                margin: 0 10px;
+                line-height: 70px;            
+                
+        }
+        
+        }
+        label{
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            line-height: 70px;
+            display: none;
+            width: 26px;
+            float: right;
+        }
+        
+        #toggle{
+            display: none;
+        }
+
+    // <!--Bunner-->
+    
+    .main{
+        background-image: url("../assets/image6.jpg");
+        height: 670px;
+
+        .logo{
+            text-align: center;
+            padding-top: 110px;
+        }
+       
+        h1{
+            text-align: center;
+            color: #ffffff;
+            padding-top: 5px;
+        }   
+    
+        .btn-main {   
+            text-align: center;
+            padding-top: 30px;
+            :hover{
+                background-color: #0052bf;
+                border: none;
+            }
+        }
+        
+        button{
+            border-radius: 5px;
+            border: 3px solid #ffffff56;
+            background: none;
+            height: 50px;
+            width: 250px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 14px;
+       
+        }
+   
+        .right{
+            margin-left: 10px;
+            
+        } 
+        .social-media{
+            text-align: center;
+            padding-top: 50px;
+            
+           a{ 
+               padding-left: 5px;
+               :hover{
+                opacity: 0.3;
+                transition: .9s; 
+               }
+           }
+        }
+    }
+    
+    
+
+    // <!--três experiencias fade-in-->
+    .experience{
+    
+        margin: 0;
+        padding: 0px;
+        height: 580px;       
+        
+         h2{
+            text-align: center;
+            padding-top: 60px;
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-family: Verdana, Tahoma, sans-serif;
+            color: #4b4b4b;
+            letter-spacing: 5px;
+            
+        }
+
+        .container {
+            margin-top: 25px;
+            position: relative;
+            width: 100%;
+            span{
+                font-size: 18px;
+                color: #4b4b4b;
+                letter-spacing: 3px;
+            }
+            p{
+                color: #7a7a7a;
+                letter-spacing: 1px;
+            }
+            
+        }
+
+        .image {
+            width: 90%;
+            
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0px;
+            bottom: 108px;
+            left: 21px;
+            right: 21px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #008CBA;
+        }
+        // fade in
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        #container {
+            display: flex;
+            text-align: center;
+            padding-top: 30px;
+        }
+    }
+
+
+    // <!--Horario de cultos de domingo-->
+    .culto-domingo{
+        text-align: center;
+        height: 350px;
+        color: #ffffff;
+        background-image: url("../assets/background-domingo.jpg");
+        
+        h2{
+           padding-top: 50px;
+           font-size: 48px;
+           font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        h3{
+            font-size: 28px;
+        }
+        p{
+            
+            a{
+                font-size: 18px;
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+
+
+        .time-task{
+            
+
+            button{
+                background-color: #ffffff;
+                border: none;
+                width: 200px;
+                height: 40px;
+                margin: 30px 0 0 15px;
+                font-size: 20px;
+
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+
+            }
+           
+        }
+    }
+
+    // <!--Apresentação pastor-->
+        .pastor-apresentacao{  
+                padding-top: 30px;
+                text-align: center;
+                height: 580px;
+
+                img{
+                    margin: 20px 0 20px 0;
+                }
+                img:hover{
+                    opacity: 0.6;
+                    transition: .9s; 
+                }
+                .about-leader{
+                    margin: 0 25px;
+                    
+                    h3{
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        padding: 0;
+                        margin: 0;
+                        letter-spacing: 5px;   
+                        color: #464646;                     
+                    }
+                    p{
+                        margin: 0;
+                        padding-top: 20px;
+                        letter-spacing: 1px;  
+                        line-height: 25px;
+                        color:  grey;
+                    }
+                    .midia-leader{
+                        text-align: center;
+                        padding: 0px;
+                        margin: 0px;
+                        
+                       a{ 
+                           padding: 5px;
+                           :hover{
+                            opacity: 0.3;
+                            transition: .9s; 
+                           }
+                        }
+                    }  
+                    button{
+                        border-radius: 3px;
+                        border: 1px solid #d1d1d1;
+                        background: #ffffff;
+                        height: 32px;
+                        width: 130px;
+                        color: #464646;
+                        cursor: pointer;
+                        font-size: 14px;
+                        letter-spacing: 1px; 
+                       
+                        
+                    }
+                    button:hover{
+                        background-color: #f1f1f1;
+                        color: #464646;
+                        transition: .5s;
+                       
+                    }
+                }
+             
+                 
+        }
+
+    // <!-- Cla, Culto nos lares -->
+    #cla{
+        height: 525px;
+        border-top: 1px solid #d3d3d3;
+        
+        #title-cla{
+            text-align: center;
+            padding-top: 30px;
+           
+            h3{
+                color: #686868;
+                font-size: 25px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+            p{
+                letter-spacing: 5px;
+                color: grey;
+            }
+        }
+        .slideshow-container{
+            display: flex;  
+            justify-content: center; 
+            margin-top: 35px;  
+                #prev{
+                    margin-top: 110px;
+                    cursor: pointer;
+                    color: #686868;
+                    font-size: 40px;
+                    opacity: .5;
+                } 
+                #prev:hover{
+                    opacity: 1;
+                    transition: .3s;
+                    color: grey;
+                }
+                #next{
+                    margin-top: 110px;
+                    cursor: pointer;
+                    color: #686868;
+                    font-size: 40px;
+                    opacity: .5;
+                } 
+                #next:hover{
+                    opacity: 1;
+                     transition: .3s;
+                     color: grey;
+                 }
+
+            .mogilar{
+                float: right;
+                margin-left: 55px;
+                margin-right: 55px;
+                text-align: center;
+                color: #3a3939;
+
+                p{
+                    padding-top: 20px;
+                    letter-spacing: 2px;
+                    color: grey;
+                }
+
+            
+            }     
+        }
+    }
+
+    // <!--cla-mobile-->
+
+    #cla-mobile{
+        height: 525px;
+        border-top: 1px solid #d3d3d3;
+        display: none;
+
+        #title-cla{
+            text-align: center;
+            padding-top: 30px;
+           
+            h3{
+                color: #686868;
+                font-size: 25px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+            p{
+                letter-spacing: 5px;
+                color: grey;
+            }
+        }
+
+        .slideshow-container-mobile{
+            display: flex;
+            justify-content: center;
+            //align-items: center;
+
+            #prev{
+                margin-top: 110px;
+                cursor: pointer;
+                color: #686868;
+                font-size: 40px;
+                opacity: .5;
+            } 
+            #prev:hover{
+                opacity: 1;
+                transition: .3s;
+                color: grey;
+            }
+            #next{
+                margin-top: 110px;
+                cursor: pointer;
+                color: #686868;
+                font-size: 40px;
+                opacity: .5;
+            } 
+            #next:hover{
+                opacity: 1;
+                 transition: .3s;
+                 color: grey;
+            }
+            .mogilar{
+                float: right;
+                margin-left: 55px;
+                margin-right: 55px;
+                text-align: center;
+                color: #3a3939;
+
+                p{
+                    padding-top: 20px;
+                    letter-spacing: 2px;
+                    color: grey;
+                }
+
+            
+            }  
+        }
+        
+        //display: none;
+    }
+
+   // <!-- Google Maps-->
+
+   #maps{
+
+        h4{
+            text-align: center;
+            font-size: 18px;
+            color: #4b4b4b;
+            font-size: 22px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        p{
+            text-align: center;
+            letter-spacing: 1px;
+            color: grey;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        #map{
+            
+            height: 500px;
+            width: 100%;
+            
+            //margin-left: 400px;
+            
+        }
+    }
+
+    // <!--Miniterios da igreja-->
+    .ministerial{
+        text-align: center;
+        margin: 0;
+        padding: 40px 0 0 0;
+        height: 525px;
+        .title{
+            h3{
+                text-transform: uppercase;
+                font-size: 22px;
+                letter-spacing: 12px;
+            }
+        }
+
+        .ministerial-groups{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 0 25px 0; 
+            justify-content: space-evenly;
+            p{
+                padding-top: 20px;
+                letter-spacing: 5px;
+            }
+            
+
+            img:hover{
+            opacity: 0.5;  
+            transition: .9s;   
+            }     
+            
+        }
+
+    }
+
+    // animate scroll
+    [data-anime]{
+        opacity: 0;
+        transition: .9s;
+    }
+    [data-anime="top"]{
+        transform: translate3d(0, -220px, 0);
+    }
+    [data-anime="right"]{
+        transform: translate3d(120px, 0, 0);
+    }
+    [data-anime="right2"]{
+        transform: translate3d(220px, 0, 0);
+    }
+    [data-anime="bottom"]{
+        transform: translate3d(0, 220px, 0);
+    }
+    [data-anime="left"]{
+        transform: translate3d(-220px, 0, 0);
+    }
+    [data-anime="fadein"]{
+        transform: translate3d(0, 0, 200px);
+    }
+    [data-anime].animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    // box eight footer
+    .rodape{
+        background-color: #000;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        p{
+            text-align: center;
+            padding: 80px 0 0 0;
+            color: #ffffff;
+        }
+    }
+
+    // media responsive
+    
+    @media only screen and (max-width: 600px) {
+        label{
+            display: block;
+            cursor: pointer;
+            color: #ffffff;
+            
+        }
+        .menu{
+            text-align: center;
+            width: 100%;
+            display: none;
+            background-color: rgb(0, 0, 0);
+            
+        }
+        .menu span{
+            margin: 0 0 0 70px;
+        }
+        .menu a{
+            clear: left;
+            display: block;
+            border-bottom: 1px solid #88888893;
+            margin: 0;
+            color: #ffffff;
+        }
+        #toggle:checked + .menu {
+            display: block;
+        }
+
+        // LOGO E BUNNER
+
+        //Botão do bunner
+
+        .btn-main{
+            text-align: center;
+           
+           button{
+            border: 1px solid rgb(219, 219, 219);
+            margin-bottom: 8px;
+            width: 450px;
+            cursor: pointer;
+
+           }
+           .right{
+               margin-left: 0px;
+           }
+        }
+        
+        // <!--três experiencias fade-in-->
+
+       .experience{
+           height: 1550px;
+
+           #container{
+           display: flex;
+           flex-wrap: wrap;
+           }
+       } 
+    
+        .culto-domingo{
+        
+            height: 350px;
+            
+            h2{
+                padding-top: 25px;
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            h3{
+                font-size: 16px;
+                padding: 10px 20px 0 20px;
+                }
+            p{
+                padding-top: 10px;
+                a{        
+                    font-size: 15px;
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            } 
+            .time-task{ 
+                padding: 10px 0 0 0;
+                button{
+                    border-radius: 15px;
+                    border: 0.5px solid #464646;
+                    background: none;
+                    margin: 5px;
+                    padding: 0;
+                    height: 50px;
+                    width: 400px;
+                    a{
+                        color: #ffffff;
+                    }
+                }
+                button:hover{
+                    background-color: #ffffff;
+                     a{
+                        color: #000;
+                    }
+                }
+            }      
+        }
+        .pastor-apresentacao{
+            height: 600px;
+        }
+        #cla{
+            display: none;
+        }
+
+        #cla-mobile{
+            display: block;
+        }
+
+        //maps
+
+        .ministerial{
+            height: 1450px;
+        }
+    } 

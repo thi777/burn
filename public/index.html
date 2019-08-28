@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../src/style.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7ogkdCuKH0ne8HSbruoERA3ZulUHkKHQ&callback=initMap"
+        type="text/javascript"></script>
+    </body>
+    <title>Igreja Burn | Bem-vindo</title>
+</head>
+
+<body>
+    <header class="main">
+    <!--Cabeçalho menu-->
+        <section>
+            <nav>
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <a href="#"> <span>quem somos</span></a>
+                    <a href="#"> onde estamos</a>
+                    <a href="#"> on-fire</a>
+                    <a href="#"> contato</a>
+                </div>
+            </nav>
+        </section>
+    <!--Bunner-->
+        <section>
+            <div class="logo">
+                <img src="../assets/logo.png" alt="">
+            </div>
+            <h1>IGREJA BURN</h1>
+            <div class="btn-main">
+                <button class="left">PROXIMO CULTO</button>
+                <button class="right">AGENDA DE ATIVIDADES</button>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/igrejaburn/"><img src="../assets/instagram.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UC-nPataKtY_ep9wrUcaGf4g"><img src="../assets/youtube.png"
+                        alt=""></a>
+                <a href="https://www.facebook.com/igrejaburn/"><img src="../assets/facebook.png" alt=""></a>
+
+            </div>
+        </section>
+    </header>
+    <!--três experiencias fade-in-->
+    <main>
+        <section>
+            <div class="experience">
+                <h2>três experiências de adoração</h2>
+                <div id="container">
+                    <div class="container" data-anime="left">
+                        <img src="../assets/louvor.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Louvor e adoração</div>
+                        </div>
+                        <p><span><strong>Louvor</strong></span></p>
+                        <p>“Tudo quanto tem fôlego louve ao Senhor!” <br> (Salmo 150:6)</p>
+                    </div>
+                    <div class="container" data-anime="right">
+                        <img src="../assets/oracao.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">A oração do justo</div>
+                        </div>
+                        <p><span><strong>Oração</strong></span></p>
+                        <p> “E tudo o que pedirem em oração, se crerem, <br> vocês receberão” (Mateus 21:22)</p>
+                    </div>
+                    <div class="container" data-anime="right2">
+                        <img src="../assets/palavra.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">O poder da palavra</div>
+                        </div>
+                        <p><span><strong>Palavra</strong></span></p>
+                        <p>"Guardei no coração a tua palavra
+                            para não <br> pecar contra ti." (Salmo 119:11</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Horario de cultos de domingo-->
+        <section>
+            <div class="culto-domingo">
+                <h2>Cultos de Domingo</h2>
+                <h3>O primeiro dia da nova semana, Jesus se concentrou e empoderou as pessoas.</h3>
+                <!--link mapa-->
+                <p><a href="#">Av. Francisco Ferreira Lopes, 4344 - Vila Jundiai, Mogi das Cruzes</a></p>
+                <div class="time-task">
+                    <button class="left"><a href="#"><strong>10:00</strong></a></button>
+                    <button class="right"><a href="#"><strong>18:00</strong></a></button>
+                </div>
+            </div>
+        </section>
+        <!--Apresentação pastor-->
+        <section>
+            <div class="pastor-apresentacao" data-anime="bottom">
+                <div class="foto-pastor">
+                    <a href="#"><img src="../assets/pastor2.jpg" alt="pastor"></a>
+                </div>
+                <div class="about-leader">
+                    <h3>Pr. Neto Sanoli</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing. <br>
+                        Neque, fuga saepe! Ratione, fugit. Ipsam, iusto! Exercitationem <br>
+                        illum voluptatum maxime, eaque fugiat </p>
+                    <div class="midia-leader">
+                        <a href="https://www.facebook.com/igrejaburn/"><img src="../assets/facebook-pastor.png" alt=""></a>
+                        <a href="https://www.instagram.com/igrejaburn/"><img src="../assets/instagram-pastor.png"
+                                alt=""></a>
+                    </div>
+                    <button>Leia mais...</button>
+                </div>
+            </div>
+        </section>
+        <!-- Cla, Culto nos lares -->
+        <section>
+            <div id="cla">
+                <div id="title-cla">
+                    <h3>Clã</h3>
+                    <p>Culto nos lares - Quinta 20h</p>
+                    <!-- <img src="../img/cla-black.png" alt="">-->
+                </div>
+                <div class="slideshow-container">
+                    <div id="prev">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="mogilar">
+                            <img src="../assets/celula-mogilar.jpg" alt="">
+                            <p><strong> Mogilar</strong></p>
+                        </div>
+                        <div class="mogilar">
+                            <img src="../assets/celula-butujuru.jpg" alt="">
+                            <p><strong>Botujuru</strong></p>
+                        </div>
+                        <div class="mogilar">
+                            <img src="../assets/celula-mogi-das-cruzes.jpg" alt="">
+                            <p><strong>Mogi das Cruzes</strong></p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="mogilar">
+                            <img src="../assets/celula-mogilar.jpg" alt="">
+                            <p><strong>Cezar de Souza</strong></p>
+                        </div>
+                        <div class="mogilar">
+                            <img src="../assets/celula-mogilar.jpg" alt="">
+                            <p><strong>Jardim das Oliveiras</strong></p>
+                        </div>
+                        <div class="mogilar">
+                            <img src="../assets/celula-mogilar.jpg" alt="">
+                            <p><strong>Jundiapeba</strong></p>
+                        </div>
+                    </div>
+                    <div id="next">
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <!--cla-mobile-->
+
+        <div id="cla-mobile">
+            <div id="title-cla">
+                <h3>Clã</h3>
+                <p>Culto nos lares - Quinta 20h</p>
+                <!-- <img src="../img/cla-black.png" alt="">-->
+            </div>
+            <div class="slideshow-container-mobile">
+                <div id="prev">
+                    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="mogilar">
+                        <img src="../assets/celula-mogilar.jpg" alt="">
+                        <p><strong> Mogilar</strong></p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="mogilar">
+                        <img src="../assets/celula-mogilar.jpg" alt="">
+                        <p><strong>Botujuru</strong></p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="mogilar">
+                        <img src="../assets/celula-mogilar.jpg" alt="">
+                        <p><strong>Mogi das Cruzes</strong></p>
+                    </div>
+                </div>
+                <div id="next">
+                    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlide2(3)"></span>
+            </div>
+        </div>
+
+        <!--Google-maps-->
+        <section id="maps">
+            <h4>Endereço - Igreja e Clãs</h4>
+            <p>Encontre um clã perto de você!</p>
+            <div id="map">
+
+            </div>
+        </section>
+        <!--Miniterios da igreja-->
+        <section>
+            <div class="ministerial">
+                <div class="title" data-anime="bottom">
+                    <h3>Grupos ministeriais!</h3>
+                </div>
+                <div class="ministerial-groups" data-anime="bottom">
+                    <div class="louvor"><a href="#"> <img src="../assets/burn-kids.jpg" alt="louvor"></a>
+                        <p><strong>Burn kids</strong></p>
+                    </div>
+                    <div class="palavra"><a href="#"><img src="../assets/on-fire.jpg" alt="palavra"></a>
+                        <p><strong>On-Fire</strong></p>
+                    </div>
+                    <div class="oracao"><a href="#"> <img src="../assets/virtuosas.jpg    " alt="adoração"></a>
+                        <p><strong>Virtuosas</strong></p>
+                    </div>
+                    <div class="oracao"><a href="#"> <img src="../assets/burn-man.jpg    " alt="adoração"></a>
+                        <p><strong>Burn Man</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <!--Create Newsletter-->
+    <!--Footer-->
+        <section>
+            <div class="rodape">
+                <p>copyright 2019</p>
+            </div>
+        </section>
+    </footer>
+    <p></p>
+    <!--maps for church end clas-->
+    <script>
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -23.541938, lng: -46.23995 },
+                zoom: 14,
+            });
+        }
+    </script>
+    <!--<script src="../src/maps.js"></script>-->
+    <script src="../src/carouselMobile.js"></script>
+    <script src="../src/carouselDesktop.js"></script>
+    <script src="../src/animeScroll.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,460 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+body {
+  font-family: "helvetica neue", sans-serif; }
+
+nav {
+  width: 100%;
+  background-color: #0000004b;
+  text-align: right;
+  height: 70px;
+  line-height: 70px; }
+
+.menu {
+  text-align: center; }
+  .menu :hover {
+    color: #246dcc;
+    font-size: 20px; }
+  .menu a {
+    text-transform: uppercase;
+    clear: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 70px; }
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right; }
+
+#toggle {
+  display: none; }
+
+.main {
+  background-image: url("../assets/image6.jpg");
+  height: 670px; }
+  .main .logo {
+    text-align: center;
+    padding-top: 110px; }
+  .main h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px; }
+  .main .btn-main {
+    text-align: center;
+    padding-top: 30px; }
+    .main .btn-main :hover {
+      background-color: #0052bf;
+      border: none; }
+  .main button {
+    border-radius: 5px;
+    border: 3px solid #ffffff56;
+    background: none;
+    height: 50px;
+    width: 250px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px; }
+  .main .right {
+    margin-left: 10px; }
+  .main .social-media {
+    text-align: center;
+    padding-top: 50px; }
+    .main .social-media a {
+      padding-left: 5px; }
+      .main .social-media a :hover {
+        opacity: 0.3;
+        transition: .9s; }
+
+.experience {
+  margin: 0;
+  padding: 0px;
+  height: 580px; }
+  .experience h2 {
+    text-align: center;
+    padding-top: 60px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #4b4b4b;
+    letter-spacing: 5px; }
+  .experience .container {
+    margin-top: 25px;
+    position: relative;
+    width: 100%; }
+    .experience .container span {
+      font-size: 18px;
+      color: #4b4b4b;
+      letter-spacing: 3px; }
+    .experience .container p {
+      color: #7a7a7a;
+      letter-spacing: 1px; }
+  .experience .image {
+    width: 90%; }
+  .experience .overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 108px;
+    left: 21px;
+    right: 21px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA; }
+  .experience .container:hover .overlay {
+    opacity: 1; }
+  .experience .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .experience #container {
+    display: flex;
+    text-align: center;
+    padding-top: 30px; }
+
+.culto-domingo {
+  text-align: center;
+  height: 350px;
+  color: #ffffff;
+  background-image: url("../assets/background-domingo.jpg"); }
+  .culto-domingo h2 {
+    padding-top: 50px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .culto-domingo h3 {
+    font-size: 28px; }
+  .culto-domingo p a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none; }
+  .culto-domingo .time-task button {
+    background-color: #ffffff;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin: 30px 0 0 15px;
+    font-size: 20px; }
+    .culto-domingo .time-task button a {
+      text-decoration: none;
+      color: #000; }
+
+.pastor-apresentacao {
+  padding-top: 30px;
+  text-align: center;
+  height: 580px; }
+  .pastor-apresentacao img {
+    margin: 20px 0 20px 0; }
+  .pastor-apresentacao img:hover {
+    opacity: 0.6;
+    transition: .9s; }
+  .pastor-apresentacao .about-leader {
+    margin: 0 25px; }
+    .pastor-apresentacao .about-leader h3 {
+      font-size: 24px;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0;
+      letter-spacing: 5px;
+      color: #464646; }
+    .pastor-apresentacao .about-leader p {
+      margin: 0;
+      padding-top: 20px;
+      letter-spacing: 1px;
+      line-height: 25px;
+      color: grey; }
+    .pastor-apresentacao .about-leader .midia-leader {
+      text-align: center;
+      padding: 0px;
+      margin: 0px; }
+      .pastor-apresentacao .about-leader .midia-leader a {
+        padding: 5px; }
+        .pastor-apresentacao .about-leader .midia-leader a :hover {
+          opacity: 0.3;
+          transition: .9s; }
+    .pastor-apresentacao .about-leader button {
+      border-radius: 3px;
+      border: 1px solid #d1d1d1;
+      background: #ffffff;
+      height: 32px;
+      width: 130px;
+      color: #464646;
+      cursor: pointer;
+      font-size: 14px;
+      letter-spacing: 1px; }
+    .pastor-apresentacao .about-leader button:hover {
+      background-color: #f1f1f1;
+      color: #464646;
+      transition: .5s; }
+
+#cla {
+  height: 525px;
+  border-top: 1px solid #d3d3d3; }
+  #cla #title-cla {
+    text-align: center;
+    padding-top: 30px; }
+    #cla #title-cla h3 {
+      color: #686868;
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+    #cla #title-cla p {
+      letter-spacing: 5px;
+      color: grey; }
+  #cla .slideshow-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px; }
+    #cla .slideshow-container #prev {
+      margin-top: 110px;
+      cursor: pointer;
+      color: #686868;
+      font-size: 40px;
+      opacity: .5; }
+    #cla .slideshow-container #prev:hover {
+      opacity: 1;
+      transition: .3s;
+      color: grey; }
+    #cla .slideshow-container #next {
+      margin-top: 110px;
+      cursor: pointer;
+      color: #686868;
+      font-size: 40px;
+      opacity: .5; }
+    #cla .slideshow-container #next:hover {
+      opacity: 1;
+      transition: .3s;
+      color: grey; }
+    #cla .slideshow-container .mogilar {
+      float: right;
+      margin-left: 55px;
+      margin-right: 55px;
+      text-align: center;
+      color: #3a3939; }
+      #cla .slideshow-container .mogilar p {
+        padding-top: 20px;
+        letter-spacing: 2px;
+        color: grey; }
+
+#cla-mobile {
+  height: 525px;
+  border-top: 1px solid #d3d3d3;
+  display: none; }
+  #cla-mobile #title-cla {
+    text-align: center;
+    padding-top: 30px; }
+    #cla-mobile #title-cla h3 {
+      color: #686868;
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+    #cla-mobile #title-cla p {
+      letter-spacing: 5px;
+      color: grey; }
+  #cla-mobile .slideshow-container-mobile {
+    display: flex;
+    justify-content: center; }
+    #cla-mobile .slideshow-container-mobile #prev {
+      margin-top: 110px;
+      cursor: pointer;
+      color: #686868;
+      font-size: 40px;
+      opacity: .5; }
+    #cla-mobile .slideshow-container-mobile #prev:hover {
+      opacity: 1;
+      transition: .3s;
+      color: grey; }
+    #cla-mobile .slideshow-container-mobile #next {
+      margin-top: 110px;
+      cursor: pointer;
+      color: #686868;
+      font-size: 40px;
+      opacity: .5; }
+    #cla-mobile .slideshow-container-mobile #next:hover {
+      opacity: 1;
+      transition: .3s;
+      color: grey; }
+    #cla-mobile .slideshow-container-mobile .mogilar {
+      float: right;
+      margin-left: 55px;
+      margin-right: 55px;
+      text-align: center;
+      color: #3a3939; }
+      #cla-mobile .slideshow-container-mobile .mogilar p {
+        padding-top: 20px;
+        letter-spacing: 2px;
+        color: grey; }
+
+#maps h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #4b4b4b;
+  font-size: 22px;
+  letter-spacing: 8px;
+  text-transform: uppercase; }
+#maps p {
+  text-align: center;
+  letter-spacing: 1px;
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 40px; }
+#maps #map {
+  height: 500px;
+  width: 100%; }
+
+.ministerial {
+  text-align: center;
+  margin: 0;
+  padding: 40px 0 0 0;
+  height: 525px; }
+  .ministerial .title h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 12px; }
+  .ministerial .ministerial-groups {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 25px 0;
+    justify-content: space-evenly; }
+    .ministerial .ministerial-groups p {
+      padding-top: 20px;
+      letter-spacing: 5px; }
+    .ministerial .ministerial-groups img:hover {
+      opacity: 0.5;
+      transition: .9s; }
+
+[data-anime] {
+  opacity: 0;
+  transition: .9s; }
+
+[data-anime="top"] {
+  transform: translate3d(0, -220px, 0); }
+
+[data-anime="right"] {
+  transform: translate3d(120px, 0, 0); }
+
+[data-anime="right2"] {
+  transform: translate3d(220px, 0, 0); }
+
+[data-anime="bottom"] {
+  transform: translate3d(0, 220px, 0); }
+
+[data-anime="left"] {
+  transform: translate3d(-220px, 0, 0); }
+
+[data-anime="fadein"] {
+  transform: translate3d(0, 0, 200px); }
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px); }
+
+.rodape {
+  background-color: #000;
+  height: 200px;
+  margin: 0;
+  padding: 0; }
+  .rodape p {
+    text-align: center;
+    padding: 80px 0 0 0;
+    color: #ffffff; }
+
+@media only screen and (max-width: 600px) {
+  label {
+    display: block;
+    cursor: pointer;
+    color: #ffffff; }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: black; }
+
+  .menu span {
+    margin: 0 0 0 70px; }
+
+  .menu a {
+    clear: left;
+    display: block;
+    border-bottom: 1px solid #88888893;
+    margin: 0;
+    color: #ffffff; }
+
+  #toggle:checked + .menu {
+    display: block; }
+
+  .btn-main {
+    text-align: center; }
+    .btn-main button {
+      border: 1px solid #dbdbdb;
+      margin-bottom: 8px;
+      width: 450px;
+      cursor: pointer; }
+    .btn-main .right {
+      margin-left: 0px; }
+
+  .experience {
+    height: 1550px; }
+    .experience #container {
+      display: flex;
+      flex-wrap: wrap; }
+
+  .culto-domingo {
+    height: 350px; }
+    .culto-domingo h2 {
+      padding-top: 25px;
+      font-size: 28px;
+      font-family: Arial, Helvetica, sans-serif; }
+    .culto-domingo h3 {
+      font-size: 16px;
+      padding: 10px 20px 0 20px; }
+    .culto-domingo p {
+      padding-top: 10px; }
+      .culto-domingo p a {
+        font-size: 15px;
+        color: #ffffff;
+        text-decoration: none; }
+    .culto-domingo .time-task {
+      padding: 10px 0 0 0; }
+      .culto-domingo .time-task button {
+        border-radius: 15px;
+        border: 0.5px solid #464646;
+        background: none;
+        margin: 5px;
+        padding: 0;
+        height: 50px;
+        width: 400px; }
+        .culto-domingo .time-task button a {
+          color: #ffffff; }
+      .culto-domingo .time-task button:hover {
+        background-color: #ffffff; }
+        .culto-domingo .time-task button:hover a {
+          color: #000; }
+
+  .pastor-apresentacao {
+    height: 600px; }
+
+  #cla {
+    display: none; }
+
+  #cla-mobile {
+    display: block; }
+
+  .ministerial {
+    height: 1450px; } }
+
+/*# sourceMappingURL=style.css.map */
