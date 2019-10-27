@@ -57,7 +57,7 @@ html, body{
     // <!--Bunner-->
     
     .main{
-        background-image: url("../assets/image6.jpg");
+        background-image: url("../src/assets/image6.jpg");
         height: 670px;
 
         .logo{
@@ -75,7 +75,7 @@ html, body{
             text-align: center;
             padding-top: 30px;
             :hover{
-                background-color: #0052bf;
+                background-color: #008CBA;
                 border: none;
             }
         }
@@ -192,7 +192,7 @@ html, body{
         text-align: center;
         height: 350px;
         color: #ffffff;
-        background-image: url("../assets/background-domingo.jpg");
+        background-image: url("../src/assets/background-domingo.jpg");
         
         h2{
            padding-top: 50px;
@@ -370,7 +370,6 @@ html, body{
     }
 
     // <!--cla-mobile-->
-
     #cla-mobile{
         height: 525px;
         border-top: 1px solid #d3d3d3;
@@ -381,7 +380,7 @@ html, body{
             padding-top: 30px;
            
             h3{
-                color: #686868;
+                color: #4b4b4b;
                 font-size: 25px;
                 text-transform: uppercase;
                 letter-spacing: 5px;
@@ -441,8 +440,37 @@ html, body{
         //display: none;
     }
 
+    // <!-- newletter -->        
+        #newletter{
+            width: 1060px;
+            height: 90px;
+            background-color: #f0f0f0;
+            margin: 30px 0 65px 147px;
+            padding-left: 20px;
+            align-items: center;
+            display: flex;
+            flex-direction: row;   
+            p{
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }  
+            input{
+                margin: 0 0 0 270px;
+                width: 300px;
+                height: 30px;
+            }   
+            button{
+                height: 36px;
+                width: 60px;
+                color: #ffffff;
+                background: #000000;
+                border: none;
+                margin: 0px;
+                padding: 0px;
+                cursor: pointer;
+            }
+        }
    // <!-- Google Maps-->
-
    #maps{
 
         h4{
@@ -452,10 +480,11 @@ html, body{
             font-size: 22px;
             letter-spacing: 8px;
             text-transform: uppercase;
+            padding-top: 40px;
         }
         p{
             text-align: center;
-            letter-spacing: 1px;
+            letter-spacing: 5px;
             color: grey;
             font-size: 16px;
             margin-bottom: 40px;
@@ -573,31 +602,36 @@ html, body{
         }
         #toggle:checked + .menu {
             display: block;
+            position: relative;
         }
 
         // LOGO E BUNNER
 
         //Botão do bunner
 
-        .btn-main{
-            text-align: center;
-           
-           button{
-            border: 1px solid rgb(219, 219, 219);
-            margin-bottom: 8px;
-            width: 450px;
-            cursor: pointer;
+        .main {
+            background-image: url("../src/assets/bunner-mobile1.jpg");
 
-           }
-           .right{
-               margin-left: 0px;
-           }
+            .btn-main{
+                text-align: center;
+               
+               button{
+                border: 1px solid rgb(219, 219, 219);
+                margin-bottom: 8px;
+                width: 300px;
+                cursor: pointer;
+    
+               }
+               .right{
+                   margin-left: 0px;
+               }
+            }
         }
         
         // <!--três experiencias fade-in-->
 
        .experience{
-           height: 1550px;
+           height: 1350px;
 
            #container{
            display: flex;
@@ -619,7 +653,7 @@ html, body{
                 padding: 10px 20px 0 20px;
                 }
             p{
-                padding-top: 10px;
+                padding: 0 10px;
                 a{        
                     font-size: 15px;
                     color: #ffffff;
@@ -635,7 +669,7 @@ html, body{
                     margin: 5px;
                     padding: 0;
                     height: 50px;
-                    width: 400px;
+                    width: 300px;
                     a{
                         color: #ffffff;
                     }
@@ -652,9 +686,9 @@ html, body{
             height: 600px;
         }
         #cla{
-            display: none;
+            display: none;          
         }
-
+        
         #cla-mobile{
             display: block;
         }

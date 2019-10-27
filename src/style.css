@@ -39,7 +39,7 @@ label {
   display: none; }
 
 .main {
-  background-image: url("../assets/image6.jpg");
+  background-image: url("../src/assets/image6.jpg");
   height: 670px; }
   .main .logo {
     text-align: center;
@@ -52,7 +52,7 @@ label {
     text-align: center;
     padding-top: 30px; }
     .main .btn-main :hover {
-      background-color: #0052bf;
+      background-color: #008CBA;
       border: none; }
   .main button {
     border-radius: 5px;
@@ -130,7 +130,7 @@ label {
   text-align: center;
   height: 350px;
   color: #ffffff;
-  background-image: url("../assets/background-domingo.jpg"); }
+  background-image: url("../src/assets/background-domingo.jpg"); }
   .culto-domingo h2 {
     padding-top: 50px;
     font-size: 48px;
@@ -257,7 +257,7 @@ label {
     text-align: center;
     padding-top: 30px; }
     #cla-mobile #title-cla h3 {
-      color: #686868;
+      color: #4b4b4b;
       font-size: 25px;
       text-transform: uppercase;
       letter-spacing: 5px; }
@@ -298,16 +298,43 @@ label {
         letter-spacing: 2px;
         color: grey; }
 
+#newletter {
+  width: 1060px;
+  height: 90px;
+  background-color: #f0f0f0;
+  margin: 30px 0 65px 147px;
+  padding-left: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row; }
+  #newletter p {
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #newletter input {
+    margin: 0 0 0 270px;
+    width: 300px;
+    height: 30px; }
+  #newletter button {
+    height: 36px;
+    width: 60px;
+    color: #ffffff;
+    background: #000000;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer; }
+
 #maps h4 {
   text-align: center;
   font-size: 18px;
   color: #4b4b4b;
   font-size: 22px;
   letter-spacing: 8px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 40px; }
 #maps p {
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   color: grey;
   font-size: 16px;
   margin-bottom: 40px; }
@@ -395,20 +422,23 @@ label {
     color: #ffffff; }
 
   #toggle:checked + .menu {
-    display: block; }
+    display: block;
+    position: relative; }
 
-  .btn-main {
-    text-align: center; }
-    .btn-main button {
-      border: 1px solid #dbdbdb;
-      margin-bottom: 8px;
-      width: 450px;
-      cursor: pointer; }
-    .btn-main .right {
-      margin-left: 0px; }
+  .main {
+    background-image: url("../src/assets/bunner-mobile1.jpg"); }
+    .main .btn-main {
+      text-align: center; }
+      .main .btn-main button {
+        border: 1px solid #dbdbdb;
+        margin-bottom: 8px;
+        width: 300px;
+        cursor: pointer; }
+      .main .btn-main .right {
+        margin-left: 0px; }
 
   .experience {
-    height: 1550px; }
+    height: 1350px; }
     .experience #container {
       display: flex;
       flex-wrap: wrap; }
@@ -423,7 +453,7 @@ label {
       font-size: 16px;
       padding: 10px 20px 0 20px; }
     .culto-domingo p {
-      padding-top: 10px; }
+      padding: 0 10px; }
       .culto-domingo p a {
         font-size: 15px;
         color: #ffffff;
@@ -437,7 +467,7 @@ label {
         margin: 5px;
         padding: 0;
         height: 50px;
-        width: 400px; }
+        width: 300px; }
         .culto-domingo .time-task button a {
           color: #ffffff; }
       .culto-domingo .time-task button:hover {

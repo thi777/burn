@@ -17,9 +17,6 @@ window.addEventListener('scroll', function () {
 })
 
 
-// Responsive
-
-
 
 
 
